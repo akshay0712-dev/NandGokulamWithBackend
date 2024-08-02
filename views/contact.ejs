@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nand Gokulam Punpun</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index">
+          <img src="resources/img/Nandgokulaam.jpg" alt="Nand Gokulam Logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index"><b>HOME</b></a>
+            </li>
+            <li>
+              <a href="about_us"><b>ABOUT</b></a>
+            </li>
+            <li>
+              <a href="#"><b>SUBJECTS</b></a>
+            </li>
+            <li>
+              <a href="gallery"><b>GALLERY</b></a>
+            </li>
+            <li>
+              <a href="contact"><b>CONTACT</b></a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1 class="name">NAND GOKULAM</h1>
+      <div class="text-box">
+        <header>
+          <hr />
+          <h1>Contact Us</h1>
+          <hr />
+        </header>
+      </div>
+    </section>
+
+    <!----Contact us---->
+    <section class="contact-us">
+      <div class="row">
+          <div class="contact-col">
+              <i class="fa fa-map-marker"></i>
+              <span>
+                  <h5>Punpun, Block Road,</h5>
+                  <p>Patna, Bihar, 804453</p>
+              </span>
+              <i class="fa fa-phone"></i>
+              <span>
+                  <h5>8787878787</h5>
+                  <p>between 7AM to 9PM</p>
+              </span>
+              <i class="fa fa-envelope"></i>
+              <span>
+                  <h5>info@gmail.com</h5>
+                  <p>Email us your query</p>
+              </span>
+          </div>
+          <div class="contact-col">
+              <form action="/generate" method="post">
+                  <h2>Send Message</h2>
+                  <input type="text" name="name" placeholder="Enter your name" required />
+                  <input type="email" name="email" placeholder="Enter email address" required />
+                  <input type="text" name="subject" placeholder="Enter your subject" required />
+                  <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                  <button type="submit" class="red-btn">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </section>
+
+    <!----footer---->
+    <section class="footer">
+      <header>
+        <h2>About Us</h2>
+        <hr />
+      </header>
+      <p>
+        We are dedicated to providing the best educational experience for our
+        students.
+      </p>
+      <div class="icons">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100018837005454">
+              <i class="fa fa-4x fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/akshay_07_12?utm_medium=copy_link">
+              <i class="fa fa-4x fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-4x fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/+917488337430">
+              <i class="fa fa-4x fa-whatsapp"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <p>
+        <b
+          >Made with <i class="fa fa-1.5x fa-heart-o"></i> by "Akshay Kumar",
+          student of Nand Gokulam</b
+        >
+      </p>
+      <hr />
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

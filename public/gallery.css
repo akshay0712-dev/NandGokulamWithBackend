@@ -1,0 +1,57 @@
+header {
+	font-size: 24px;
+	font-family: "Brush Script MT", cursive;
+	text-align: center;
+}
+
+
+
+img {
+	width: 100%;
+}
+
+
+
+.send-image {
+	background-color: #ff9999;
+	padding-top: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+img:hover {
+	transform: scale(1.5);
+	transition: 0.5s transform;
+}
+
+.facilitie {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.facilitie-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.facilitie-col img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.facilitie-col p {
+	padding: 0;
+}
+
+.facilitie-col h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: center;
+}
