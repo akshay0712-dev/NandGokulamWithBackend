@@ -21,3 +21,18 @@ This project is a full-stack web application built using **Express.js**, **EJS**
 3. Install dependencies:
    ```bash
    npm install
+
+4. Set up environment variables:
+   ```bash
+      PORT=3000
+
+5. Start the application:
+   ```bash
+      npm start
+
+##  Usage
+ - Access the application at **http://localhost:3000** .
+
+## License
+```bash
+   Feel free to customize this description to better fit your project’s specifics! If you need any further assistance, just let me know.
