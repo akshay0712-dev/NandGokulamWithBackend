@@ -1,9 +1,10 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const Employee = require("./models/Employee"); // Adjust the path as needed
+require('dotenv').config()
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Middleware to parse URL-encoded data
 app.use(express.urlencoded({ extended: true }));
